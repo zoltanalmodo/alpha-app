@@ -31,10 +31,10 @@ class App extends Component {
             <br />
             <h2>Are you looking for an office?</h2>
             <ul>
-              <li>Use the map on the right-hand side to find our location.</li>
+              <li>Use Google map to find our location.</li>
               <li>Use the floorplan below to explore the spaces that look nice to you.</li>
               <li>Finally, use the contact form to contact the manager of the Biscuit Factory bulding. Alpha Team is always with you!</li>
-          </ul>
+            </ul>
           </div>
           <div className="flex-item-02">
             <GoogleMap />

@@ -10,7 +10,7 @@
 
 @keyframes App-logo-spin {
   from { transform: rotate(-15deg); }
-  to { transform: rotate(deg); }
+  to { transform: rotate(15deg); }
 }
 
 .container-01{
@@ -51,17 +51,21 @@
 
 .flex-item-01{
   flex: 1;
+  flex-basis: 40%;
   line-height: 150%;
-  padding: 5rem;
+  padding: 2.5rem;
   text-align: left;
   min-width: 35rem;
 }
 
+.flex-item-01 p {
+  font-size:1.2rem;
+}
+
 .flex-item-02{
   flex: 1;
-  padding: 2rem;
-  min-width: 35rem;
-
+  flex-basis: 47%;
+  padding: 0.5rem;
 }
 
 .map{
@@ -72,7 +76,7 @@
 li {
   list-style-type: square;
   text-align: left;
-  padding-left: 1rem;
+  font-size:1.2rem;
 }
 
 .container-03{
