@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 45rem;
+  min-height: 50rem;
   width:auto;
   background-image: url("images/cityView.jpg");
   background-size: cover;
@@ -46,20 +46,22 @@
   width:auto;
   background-color:#1A3A41;
   color: white;
-  /* flex-wrap: wrap; */
+  flex-wrap:wrap;
 }
 
 .flex-item-01{
   flex: 1;
   line-height: 150%;
-  /* padding: 5rem; */
+  padding: 5rem;
   text-align: left;
+  min-width: 35rem;
 }
 
 .flex-item-02{
-  /* width: 50%; */
   flex: 1;
-  /* position: relative; */
+  padding: 2rem;
+  min-width: 35rem;
+
 }
 
 .map{
@@ -88,6 +90,7 @@ li {
 
 .floor-plan-image{
   max-width:85%;
+  padding:1rem;
 }
 
 .container-04{
