@@ -16,11 +16,11 @@ export default class FloorPlan extends React.Component {
 
   render() {
     return <div>
-        <img src={floorPlan} width="845" height="624" border="0" usemap="#map" />
+        <img src={floorPlan} width="845" height="624" border="0" usemap="#map" alt='' />
         {this.state.room && <div> <Details room={this.state.room} /> </div>}
         <map name="map">      
          { mapArea().map((room)=> {
-          return <area 
+          return <area alt=''
             onClick={() => this.roomClick(room)} 
             shape="rect" 
             coords={room.coords} 
