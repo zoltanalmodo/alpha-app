@@ -3,6 +3,7 @@ import logo from './images/logo.svg';
 import GoogleMap from './GoogleMap.js';
 import './App.less';
 import FloorPlan from './FloorPlan/FloorPlan';
+import Details from './FloorPlan/Details/Details';
 
 class App extends Component {
   render() {
@@ -40,6 +41,7 @@ class App extends Component {
         <div className="container-03">
           <div className="flex-item-03">
             <FloorPlan />
+            
           </div>
         </div>
         <div className="container-04">
