@@ -12,7 +12,8 @@ class App extends Component {
         <div className="container-01">
           <header className="header-content">
             <img src={logo} className="logo" alt="" />
-            <h1>Alpha Real Estate is always with you!</h1>
+            <h1>MANY HANDS BERMONDSEY</h1>
+            <h2>OPEN STUDIOS</h2>
           </header>
         </div>
         <div className="App-intro container-02">
