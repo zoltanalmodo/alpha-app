@@ -9,19 +9,20 @@ export default class AboutUs extends React.Component {
                 <div className="flex-item-01">
                     <h2>Who are we?</h2>
                     <p>
-                        Alpha Team is a group of passionate developers! We are located in the Biscuit factory, which is based in the Bermondsey area of London.
+                        Alpha Team is a group of passionate developers! We are located in Biscuit Factory in the Bermondsey area of London. We are close to the Bermondsey Tube station, Surrey Quey Overground station, and South Bermondsey train station. We are not far away from Southwark Park and Tower Bridge.
                     </p>
                     <br />
-                    <h2>What are we doing?</h2>
+                    <h2>What are we doing now?</h2>
                     <p>
-                        We are boosting our coding skills and we help the community to prosper. Currently, we are working on a project that can serve the clients whoe are interested to rent the spaces and facilities of the building. We offer them accurate information on an elegant interface.
+                        We are boosting our coding skills every day. We aim to help local businesses prosper and offer better services to people. Currently, we are working on this website to accelerate and streamline the renting process of the offices in Biscuit Factory. With this website, we hope the building managers and their clients have a happy transaction.
                     </p>
                     <br />
-                    <h2>Are you looking for an office?</h2>
+                    <h2>How can you find an office in Biscuit Factory?</h2>
                     <ul>
-                        <li>Use Google map to find our location.</li>
-                        <li>Use the floorplan below to explore the spaces that look nice to you.</li>
-                        <li>Finally, use the contact form to contact the manager of the Biscuit Factory bulding. Alpha Team is always with you!</li>
+                        <li>Check the Google Map to find out our location.</li>
+                        <li>Use the filter to select the offices that potentially meet your needs.</li>
+                        <li>Use the floor plan to explore the details of the offices.</li>
+                        <li>Finally, contact the Biscuit Factory building managers with the contact form. Alpha Team is always with you! :) </li>
                     </ul>
                 </div>
                 <div className="flex-item-02">
