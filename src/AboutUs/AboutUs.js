@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css';
-import GoogleMap from '../GoogleMap.js';
+import GoogleMap from './GoogleMap/GoogleMap.js';
 
 export default class AboutUs extends React.Component {
     render() {
