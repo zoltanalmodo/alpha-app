@@ -1,12 +1,12 @@
 import React from 'react';
-import './AboutUs.css';
+import './AboutUs.less';
 import GoogleMap from './GoogleMap/GoogleMap.js';
 
 export default class AboutUs extends React.Component {
     render() {
         return (
-            <div className="App-intro container-02">
-                <div className="flex-item-01">
+            <div className="App-intro container-aboutus">
+                <div className="flex-item-intro">
                     <h2>Who are we?</h2>
                     <p>
                         Alpha Team is a group of passionate developers! We are located in Biscuit Factory in the Bermondsey area of London. We are close to the Bermondsey Tube station, Surrey Quey Overground station, and South Bermondsey train station. We are not far away from Southwark Park and Tower Bridge.
@@ -25,7 +25,7 @@ export default class AboutUs extends React.Component {
                         <li>Finally, contact the Biscuit Factory building managers with the contact form. Alpha Team is always with you! :) </li>
                     </ul>
                 </div>
-                <div className="flex-item-02">
+                <div className="flex-item-map">
                     <GoogleMap />
                 </div>
             </div>

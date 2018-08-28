@@ -1,28 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './App.less';
 import Header from './Header/Header.js';
 import AboutUs from './AboutUs/AboutUs.js';
-import './App.less';
+// import Filters from './Filters/Filters';
 import FloorPlan from './FloorPlan/FloorPlan';
+import FAQ from './FAQ/FAQ';
+import Contact from './Contact/Contact';
 
-class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <div className="App">
         <Header />
         <AboutUs />
-        <div className="container-03">
-          <div className="flex-item-03">
-            <FloorPlan />
-          </div>
-        </div>
-        <div className="container-04">
-          <div className="flex-item-04">
-            Contact form
-          </div>
-        </div>
+        {/* <Filters /> */}
+        <FloorPlan />
+        <FAQ />
+        <Contact />
       </div>
     );
   }
 }
-
-export default App;
