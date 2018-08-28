@@ -1,14 +1,21 @@
-import React, { Component } from 'react';
-import logo from './images/logo.svg';
-import GoogleMap from './GoogleMap.js';
+import React from 'react';
 import './App.less';
+import Header from './Header/Header.js';
+import AboutUs from './AboutUs/AboutUs.js';
+// import Filters from './Filters/Filters';
 import FloorPlan from './FloorPlan/FloorPlan';
+<<<<<<< HEAD
 import Details from './FloorPlan/Details/Details';
+=======
+import FAQ from './FAQ/FAQ';
+import Contact from './Contact/Contact';
+>>>>>>> upstream/master
 
-class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <div className="App">
+<<<<<<< HEAD
         <div className="container-01">
           <header className="header-content">
             <img src={logo} className="logo" alt="" />
@@ -50,9 +57,15 @@ class App extends Component {
             Contact form
           </div>
         </div>
+=======
+        <Header />
+        <AboutUs />
+        {/* <Filters /> */}
+        <FloorPlan />
+        <FAQ />
+        <Contact />
+>>>>>>> upstream/master
       </div>
     );
   }
 }
-
-export default App;
