@@ -6,7 +6,8 @@ export default class Contact extends React.Component {
         return (
             <div className="container-contact">
                 <div className="flex-item-contact">
-                    Contact info: 
+                    <p>
+                        Contact info: 
                                 Many Hands London
             
                                 Visit Us!
@@ -22,11 +23,12 @@ export default class Contact extends React.Component {
                                 Email Address:
                                 Password:
             
-                                +++Sign Up+++         ==>JOIN<==
                                 
                                 
-                                Many Hands is part of the Shapes Collective.
-                                www.shapescollective.com
+                                
+                                Many Hands is part of the Shapes Collective
+
+                    </p>
                 </div>
             </div>
         );
