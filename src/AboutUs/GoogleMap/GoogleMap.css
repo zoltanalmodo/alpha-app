@@ -1,4 +1,8 @@
 .map{
-    height: 40rem;
+    height: 766px;
+    width: auto;
     position: relative;
+    top: 0px;
+    right: 0px;
+    background-image: url("./gmap.png");
   }

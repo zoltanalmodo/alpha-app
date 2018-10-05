@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.less';
-import Header from './Header/Header.js';
+import TopMenu from './TopMenu/TopMenu';
+import Carousel from './Carousel/Carousel.js';
 import AboutUs from './AboutUs/AboutUs.js';
 import FloorPlan from './FloorPlan/FloorPlan';
 import FAQ from './FAQ/FAQ';
@@ -10,7 +11,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <TopMenu />
+        <Carousel />
         <AboutUs />
         {/* <Filters /> */}
         <FloorPlan />

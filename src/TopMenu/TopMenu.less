@@ -1,31 +1,14 @@
 @for-phone-only: ~"only screen and (max-width: 599px)";
 @for-tablet-portrait-up: ~"only screen and (min-width: 600px) and (max-width: 899px)";
 
-.container-header{
+.top-menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 50rem;
-    width:auto;
-    background-image: url("../images/cityView.jpg");
+    height: 105px;
+    width: auto;
+    background-image: url("../images/TopMenu.jpg");
     background-size: cover;
-}
-
-.header-content {
-    height: 160px;
-    padding: 20px;
-    color: white;
-}
-
-.logo {
-    animation: App-logo-spin infinite 20s linear;
-    animation-direction: alternate;
-    height: 100%;
-}
-
-@keyframes App-logo-spin {
-    from { transform: rotate(-15deg); }
-    to { transform: rotate(15deg); }
 }
   
 h1 {
@@ -38,7 +21,7 @@ h1 {
     text-transform: uppercase;
 }
 
-.header-content h2 {
+.h2 {
     text-shadow: 4px 4px rgb(54, 8, 8);
     font-size: 66px;
     line-height: 24px;
@@ -46,6 +29,7 @@ h1 {
     color: rgb(238, 58, 13);
     font-weight: 900;
     text-transform: uppercase;
+    
     @media @for-phone-only {
         line-height: 65px;
     }

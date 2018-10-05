@@ -1,6 +1,8 @@
 import React from 'react';
 import './AboutUs.less';
-import GoogleMap from './GoogleMap/GoogleMap.js';
+import './GoogleMap/GoogleMap.css'
+
+// import GoogleMap from './GoogleMap/GoogleMap.js';
 
 export default class AboutUs extends React.Component {
     render() {
@@ -25,8 +27,8 @@ export default class AboutUs extends React.Component {
                         <li>Finally, contact the Biscuit Factory building managers with the contact form. Alpha Team is always with you! :) </li>
                     </ul>
                 </div>
-                <div className="flex-item-map">
-                    <GoogleMap />
+                <div className="map">
+                    {/* <GoogleMap /> */}
                 </div>
             </div>
         );
